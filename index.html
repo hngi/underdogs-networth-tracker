@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="networth.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="resources/networth.css" />
 
 </head>
 <body>
     <header class="header">
-        <h2 id="h2">Networth Tracker</h2>
+     <img src="resources/TRlogo.png" alt="Team rand Logo" title="Team rand logo" width="120px" height="100px" /> <h2 id="h2">Networth Tracker</h2>
     </header> 
       <table id="section-asset">
             <th id="asset-article" style="display:inline-block">Assets</th>
@@ -22,11 +22,12 @@
       </table>
 
     <main>
-        <button id="networthButton">NetWorth:</button>
+
+        <button id="networthButton">NetWorth:</button><span id="TotalNetworth"></span>
         <div id="main-wrapper">
              
             <form id="form">
-                    <span id="Result">Result:</span><br>
+                    <span id="Result"></span><br>
                <input type="text" class="input" id="asset" autofocus placeholder="Asset">             
                <input type="text" class="input" id="amount" placeholder="Amount"> <button type="submit" id="button" >Add</button>
                <!--Liability Section -->
@@ -44,6 +45,6 @@
         <p>Are your debt what you have to pay out like: Mortage, Loan,  credit card balances and so on</p>
 
     </aside>
-    <script src="networth.js"></script>
+    <script src="resources/networth.js"></script>
 </body>
 </html>
