@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AssetCalculator</string>
+    <string name="Username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="assets">Assets</string>
+    <string name="enter_your_cash_assets_amount">Enter your cash assets amount</string>
+    <string name="enter_your_assets">Enter Your Assets</string>
+    <string name="enter_your_cash_assets">Enter your cash assets</string>
+    <string name="enter_your_liability">Enter your liability</string>
+    <string name="calculate">Calculate</string>
+</resources>

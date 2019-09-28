@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#8da5c6"
+    tools:context=".AssetsCalc">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_width="190dp"
+        android:text="@string/enter_your_assets" />
+
+    <EditText
+        android:id="@+id/AssetsTxt"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/bg_color"
+        android:fadingEdge="horizontal"
+        android:hint="@string/assets" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_width="190dp"
+        android:text="@string/enter_your_cash_assets" />
+
+    <EditText
+        android:id="@+id/CashTxt"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:hint="@string/enter_your_cash_assets_amount" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_width="190dp"
+        android:text="@string/enter_your_liability" />
+
+    <EditText
+        android:id="@+id/LiabilityTxt"
+        android:layout_height="40dp"
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:hint="@string/enter_your_liability"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#0000ff"
+        android:onClick="sum"
+        android:text="@string/calculate"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/TotalAssets"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

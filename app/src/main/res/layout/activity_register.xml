@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="#8da5c6"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/nwlogo" />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_height="40dp"
+        android:layout_width="190dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_color"
+        android:drawableLeft="@drawable/username"
+        android:hint="@string/Username"/>
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_height="40dp"
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_color"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/password"/>
+    <EditText
+        android:id="@+id/edittext_cnf_password"
+        android:layout_height="40dp"
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_color"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/confirm_password"/>
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:text="@string/register"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/already_have_an_account"/>
+        <TextView
+            android:id="@+id/textview_login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#123456"
+            android:textSize="16sp"
+            android:text="@string/login"/>
+    </LinearLayout>
+
+</LinearLayout>
