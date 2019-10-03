@@ -21,6 +21,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:alpha="0.8"
+        android:inputType="numberDecimal"      
         android:background="@drawable/bg_color"
         android:fadingEdge="horizontal"
         android:hint="@string/assets" />
@@ -35,6 +36,7 @@
         android:id="@+id/CashTxt"
         android:layout_width="190dp"
         android:layout_height="51dp"
+        android:inputType="numberDecimal"       
         android:layout_marginTop="20dp"
         android:background="#fff"
         android:hint="@string/enter_your_cash_assets_amount" />
@@ -50,6 +52,7 @@
         android:layout_height="40dp"
         android:layout_width="190dp"
         android:layout_marginTop="20dp"
+        android:inputType="numberDecimal"       
         android:background="#fff"
         android:hint="@string/enter_your_liability"/>
 
