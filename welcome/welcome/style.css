@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: helvetica;
+}
+
+main {
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  position: relative;
+  left: 120px;
+}
+
+main h3 {
+  font-family: Arial;
+  margin-bottom: 30px;
+}
+
+main .btn {
+  text-decoration: none;
+  padding: 2vh 17vh;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Helvetica;
+  background-color: #7a51e9;
+  letter-spacing: 2px;
+  border-radius: 100px;
+  width: 100%;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-top: 50px;
+  position: relative;
+  left: 15px;
+  -webkit-box-shadow: 1px 7px 20px 0px rgba(83, 125, 242, 0.651);
+          box-shadow: 1px 7px 20px 0px rgba(83, 125, 242, 0.651);
+}
+
+main .btn:hover {
+  background-color: white;
+  color: #070707;
+}
+
+main form {
+  margin: 5px 0;
+  height: 60vh;
+  width: 70%;
+}
+
+main form label {
+  display: block;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+main form input {
+  margin-bottom: 30px;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #7a51e9;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+main form input:focus {
+  border-bottom: 2px solid #6d6a6a;
+}
+
+main span {
+  font-size: 12px;
+  color: gray;
+}
+
+main span a {
+  text-decoration: none;
+}
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.landing {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(107, 52, 161, 0.76)), to(rgba(30, 143, 255, 0.767))), url("walls.jpg");
+  background: linear-gradient(to bottom, rgba(107, 52, 161, 0.76), rgba(30, 143, 255, 0.767)), url("walls.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px auto;
+}
+
+.landing h2 {
+  font-size: 72px;
+}
+
+.landing p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.landing .btn {
+  margin-top: 20px;
+  color: whitesmoke;
+  padding: 10px 22px;
+  background-color: #7a51e9;
+  -webkit-box-shadow: 1px 7px 20px 0px rgba(83, 125, 242, 0.815);
+          box-shadow: 1px 7px 20px 0px rgba(83, 125, 242, 0.815);
+  text-decoration: none;
+  border-radius: 100px;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Helvetica;
+  letter-spacing: 2px;
+  border-radius: 100px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.landing .btn:hover {
+  background-color: white;
+  color: #070707;
+}
+/*# sourceMappingURL=style.css.map */
